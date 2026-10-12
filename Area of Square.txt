@@ -1,0 +1,17 @@
+//Area of Square
+
+#include <stdio.h>
+void main()
+{
+    int birthYear, currentYear, age;
+
+    printf("Enter birth year: ");
+    scanf("%d", &birthYear);
+
+    printf("Enter current year: ");
+    scanf("%d", &currentYear);
+
+    age = currentYear - birthYear;
+
+    printf("Your approximate age is %d", age);
+}

@@ -1,0 +1,17 @@
+//Birth Year
+
+#include <stdio.h>
+void main()
+{
+    int age, currentYear, birthYear;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter current year: ");
+    scanf("%d", &currentYear);
+
+    birthYear = currentYear - age;
+
+    printf("Birth year is approximately %d", birthYear);
+}
