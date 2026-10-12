@@ -1,0 +1,21 @@
+//Int–Float
+
+
+#include <stdio.h>
+void main()
+{
+    int a;
+    float b;
+
+    printf("Enter one integer and one decimal number: ");
+    scanf("%d %f", &a, &b);
+
+    printf("Addition = %f\n", a + b);
+    printf("Subtraction = %f\n", a - b);
+    printf("Multiplication = %f\n", a * b);
+
+    if (b != 0)
+        printf("Division = %f", a / b);
+    else
+        printf("Division by zero is not possible");
+}
