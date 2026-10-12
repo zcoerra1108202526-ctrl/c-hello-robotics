@@ -1,0 +1,36 @@
+1.  Calculate product of two integers
+
+#include<stdio.h>
+void main()
+{
+int n1,n2,product,add,sub;
+float div;
+printf("Enter the first number:");
+scanf("%d",&n1);
+printf("\nEnter the second number:");
+scanf("%d",&n2);
+product=n1*n2;
+add=n1+n2;
+if(n1>n2)
+ {
+   sub=n1-n2;
+printf("subtraction of two number is :%d",sub);
+}
+ else
+{
+sub=n2-n1;
+printf("\nSubtraction of two number is :%d",sub);
+}
+if(n1<n2)
+ {
+   div=n2/n1;
+printf("\nDivision of two number is :%f",div);
+ }
+ else
+ {
+div=n1/n2;
+printf("\ndivision of two number is :%f",div);
+ }
+printf("\nAddition of two number is;%d",add);
+printf("\nProduct of two number is;%d",product);
+}
