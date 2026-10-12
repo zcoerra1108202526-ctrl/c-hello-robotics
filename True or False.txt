@@ -1,0 +1,17 @@
+//True or False
+
+#include <stdio.h>
+void main()
+{
+    int a;
+
+    printf("Enter 1 for True or 0 for False: ");
+    scanf("%d", &a);
+
+    if (a == 1)
+        printf("True");
+    else if (a == 0)
+        printf("False");
+    else
+        printf("Invalid input");
+}
