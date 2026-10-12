@@ -1,0 +1,33 @@
+2.Find the maximum of three integers
+
+
+#include <stdio.h>
+void main() 
+{
+int n1,n2,n3;
+printf("Enter the first number:");
+scanf("%d",&n1);
+printf("Enter the second number:");
+scanf("%d",&n2);
+printf("Enter the third number:");
+scanf("%d",&n3);
+ if (n1>n2&&n1>n3)
+ {
+   printf("Maximum number among all three number is:%d",n1);
+ }
+else if (n2>n3&&n2>n1)
+{
+    printf("Maximum number among all three number is:%d",n2); 
+}
+    else if (n3>n2&&n3>n1)
+ {
+   printf("Maximum number among all three number is:%d",n3);     
+  }
+    else
+    {
+        printf("All three numbers are equal");
+    }
+        
+}
+
+
